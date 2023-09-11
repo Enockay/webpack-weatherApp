@@ -1,0 +1,32 @@
+.cardContainer{
+    display : grid;
+    grid-template-columns: repeat(4,15rem);
+    grid-template-rows: repeat(3,20rem);
+    margin-left: 10%;
+    gap:1.1rem;
+    margin-top: 4rem;
+}
+
+.card{
+    background-color:rgb(21, 255, 0);
+    padding: 0.8rem;
+    border-radius: 0.9rem;
+    color: beige;
+    color:black;
+}
+.location {
+    font-size: 1.1rem;
+}
+.temp{
+    font-size: 1.1rem;
+}
+.label{
+    font-size:5rem;
+    color : grey;
+}
+.condition{
+    color: brown;
+}
+.time{
+    color: beige;
+}
